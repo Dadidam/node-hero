@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha test",
     "start": "node index.js"
   },
   "repository": {
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/Dadidam/node-hero/issues"
   },
-  "homepage": "https://github.com/Dadidam/node-hero#readme"
+  "homepage": "https://github.com/Dadidam/node-hero#readme",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "mocha": "^3.5.0"
+  }
 }
